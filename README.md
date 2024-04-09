@@ -1,7 +1,7 @@
 # SheHack7.0 ( RiseUp Women )
 # Problem Statement
 
-Over the last several years, our India has experienced numerous horrifying incidents involving women of all ages, both on social media and in real life. Every week, a large number of complaints are made, with the majority of them remaining unaddressed. Furthermore, more than half of the women are afraid to speak up. Apart from all of this distress, women are afraid to discuss their own health. In most rural regions of India, discussing health concerns has always been and continues to be taboo. A substantial number of women are unaware of the resources available to them in areas of education and economic freedom.
+Over the last several years, our India has experienced numerous horrifying incidents involving women of all ages, both on social media and in real life. Every week, a large number of complaints are made, with the majority of them remaining unaddressed. Furthermore, more than half of the women are afraid to speak up. Apart from all of this distress, women are afraid to discuss their own health. In most rural regions of India, discussing health concerns has always been and continues to be taboo. A substantial number of women are unaware of the resources available to them in areas of education and economic freedom.The platform offers period and pregnancy tracking, medication reminders, and mood-based playlists. These features empower women to manage their health while promoting emotional well-being. By breaking taboos and providing essential tools, we aim to foster a supportive environment where women feel empowered to take control of their health and well-being, bridging gaps in access to healthcare information and resources.
 
 # Solution
 
