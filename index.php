@@ -548,7 +548,7 @@
 
     </div>
 
-    <h1 class="credit"> Created by <span> The Achievers Team </span> | All rights reserved! </h1>
+    <h1 class="credit"> Created by <span> TechByte Team </span> | All rights reserved! </h1>
 
 </section>
 
