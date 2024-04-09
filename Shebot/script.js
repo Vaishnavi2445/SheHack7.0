@@ -1,0 +1,82 @@
+const sendChatBtn = document.querySelector(".chat-input span");
+const chatInput = document.querySelector(".chat-input textarea");
+const chatBox = document.querySelector(".chatbox");
+const chatBotToggler = document.querySelector(".chatbot-toggler");
+const chatBotCloseBtn = document.querySelector(".close-btn");
+
+let userMessage;
+const API_KEY="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";
+const inputHeight = chatInput.style.scrollHeight;
+const createChatLi = (message,className) =>{
+   const chatLi = document.createElement("li");
+   chatLi.classList.add( "chat", className);
+   let chatContent = className ==='outgoing'?
+   `<p></p>`:
+   `<span  class ="fa-solid fa-robot"></span> <p></p>`
+    chatLi.innerHTML = chatContent;
+    chatLi.querySelector("p").textContent=message;
+   return chatLi;
+}
+const generateResponse = (incomingChatLi) => {
+    const API_URL = "https://api.openai.com/v1/chat/completions";
+    const messageElement = incomingChatLi.querySelector("p");
+
+    const requestOptions = {
+        method: "post",
+        headers: {
+            'Content-Type': "application/json",
+            'Authorization': `Bearer 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`
+        },
+        body: JSON.stringify({
+            "model": "gpt-3.5-turbo",
+            "messages": [{
+                "role": "user",
+                "content": userMessage
+            }]
+        })
+    
+    };
+    fetch(API_URL,requestOptions)
+    .then((res=>res.json()))
+    .then((data)=>{
+        messageElement.textContent = data.choices[0].message.content;
+    })
+    .catch((error)=>{
+       messageElement.classList.add("error") ;
+ messageElement.textContent = "Something went Wrong ,please try again";
+    })
+    .finally(()=> 
+        chatBox.scrollTo(0,chatBox.scrollHeight));
+
+    
+}
+
+const handleChat=()=>{
+  userMessage=chatInput.value;
+  if(!userMessage) return;
+  chatInput.value=" ";
+  chatBox.append( createChatLi(userMessage,'outgoing'));
+  chatBox.scrollTo(0,chatBox.scrollHeight);
+  setTimeout(()=>{
+    const incomingChatLi= createChatLi('Typing...','incoming');
+    chatBox.append( incomingChatLi);
+    chatBox.scrollTo(0,chatBox.scrollHeight);
+
+    generateResponse(incomingChatLi);
+ },600);
+};
+
+
+sendChatBtn.onclick = () =>{
+    handleChat();
+}
+chatBotToggler.onclick=()=>{
+    document.body.classList.toggle('show-chatbot');
+}
+chatBotCloseBtn.onclick=()=>{
+    document.body.classList.remove('show-chatbot');
+}
+chatInput.oninput=()=>{
+   chatInput.computedStyleMap.height=`${inputHeight}px`;
+   chatInput.computedStyleMap.height=`${chatInput.scrollHeight}px`;
+}
