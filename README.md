@@ -11,8 +11,8 @@ In light of this, we created <b> a website to address all of the challenges tha
 
 We aim to reach each and every girls/womans of rural India to educate and empower them through emerging technologies. We have covered 6 major sectors for the overall development of women. These are <b> Education, Health, Safety, Empowerment, Economic Freedom, and opportunities for Women in Tech </b>. We have researched the various sectors and provided links to the external sites which look into this matter, and helpline numbers of Concerned authorities (NGOs, Crime cells, and Women's cells). Moreover, we will be working on individual web pages of this objective hyperlinked with the main site.
 
-# Deployed Link : http://16.171.25.142/RiseUp%20Women/
-# YouTube Link :  https://www.youtube.com/watch?v=55VCwN5Qnl0&t=22s
+# Deployed Link : 
+# YouTube Link :  
 # Vision
 
 <h3>To Educate</h3>
