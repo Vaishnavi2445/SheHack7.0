@@ -11,8 +11,7 @@ In light of this, we created <b> a website to address all of the challenges tha
 
 We aim to reach each and every girls/womans of rural India to educate and empower them through emerging technologies. We have covered 6 major sectors for the overall development of women. These are <b> Education, Health, Safety, Empowerment, Economic Freedom, and opportunities for Women in Tech </b>. We have researched the various sectors and provided links to the external sites which look into this matter, and helpline numbers of Concerned authorities (NGOs, Crime cells, and Women's cells). Moreover, we will be working on individual web pages of this objective hyperlinked with the main site.This platform offers period and pregnancy tracking, medication reminders, and mood-based playlists. These features empower women to manage their health while promoting emotional well-being. By breaking taboos and providing essential tools, we aim to foster a supportive environment where women feel empowered to take control of their health and well-being, bridging gaps in access to healthcare information and resources
 
-# Deployed Link : 
-# YouTube Link :  
+ 
 # Vision
 
 <h3>To Educate</h3>
