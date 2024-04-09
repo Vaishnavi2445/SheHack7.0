@@ -80,6 +80,9 @@ Our website simplifies maintenance connectivity, enabling users to engage in rea
 
 Experience seamless Healthcare Connectivity on our platform, allowing users to schedule virtual consultations with qualified doctors from the comfort of their homes. Our secure communication channels prioritize privacy, ensuring confidential interactions between patients and healthcare professionals. Take control of your well-being by easily accessing virtual appointments, promoting convenience and timely healthcare support.
 
+<h3>Your Personal Health Companion</h3>
+The platform offers period and pregnancy tracking, medication reminders, and mood-based playlists. These features empower women to manage their health while promoting emotional well-being. 
+
 
 <h3>Login and signup features:</h3>
 
